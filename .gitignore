@@ -1,0 +1,18 @@
+# Biometric data — never commit
+known_faces/
+encodings.pkl
+
+# Test-generated encodings (derived from fixture images)
+tests/fixtures/encodings_test.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
